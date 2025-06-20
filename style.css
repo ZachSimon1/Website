@@ -39,7 +39,7 @@ nav a:hover {
   color: #ffc107;
 }
 
-/* אזור גיבור */
+/* גיבור */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
@@ -73,34 +73,24 @@ nav a:hover {
   background-color: #eee;
 }
 
-/* קישורים */
-.links {
+/* עמוד עליי */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 2rem;
+  gap: 2rem;
 }
 
-.links ul {
-  list-style: none;
-  padding: 0;
+.about img {
+  max-width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
-.links li {
-  margin: 0.5rem 0;
-}
-
-.links a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-.links a:hover {
-  text-decoration: underline;
-}
-
-/* צור קשר */
-.contact {
-  background: #efefef;
-  padding: 2rem;
-  text-align: center;
+.about-text {
+  flex: 1;
+  min-width: 250px;
 }
 
 /* תחתית */
