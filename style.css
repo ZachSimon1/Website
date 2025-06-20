@@ -1,0 +1,113 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Alef", sans-serif;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  color: #333;
+}
+
+main {
+  flex: 1;
+}
+
+/* כותרת עליונה */
+header {
+  background-color: #0d1a2d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+/* אזור גיבור */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to left, #007BFF, #0056b3);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 30px;
+  background-color: white;
+  color: #0056b3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero .btn.primary {
+  background-color: #ffc107;
+  color: black;
+}
+
+.hero .btn:hover {
+  background-color: #eee;
+}
+
+/* קישורים */
+.links {
+  padding: 2rem;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin: 0.5rem 0;
+}
+
+.links a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* צור קשר */
+.contact {
+  background: #efefef;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* תחתית */
+footer {
+  background-color: #0d1a2d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
